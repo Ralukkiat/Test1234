@@ -1,0 +1,19 @@
+
+=====คำสั่งลบ ip route แต่ละ route ที่สร้างขึ้นมา======
+
+no ip route 10.10.1.0 255.255.255.0 100.100.100.1 name SNK-NKT
+no ip route 10.10.2.0 255.255.255.0 100.100.100.2 name SNK-New
+no ip route 10.10.3.0 255.255.255.0 100.100.100.3 name SNK-PCB
+no ip route 10.10.4.0 255.255.255.0 100.100.100.4 name SNK-BKK01
+no ip route 10.10.5.0 255.255.255.0 100.100.100.5 name SNK-CMI
+no ip route 10.10.6.0 255.255.255.0 100.100.100.6 name SNK-CBI
+no ip route 10.10.7.0 255.255.255.0 100.100.100.7 name SNK-RBR
+no ip route 10.10.8.0 255.255.255.0 100.100.100.8 name SNK-SPK
+no ip route 10.10.9.0 255.255.255.0 100.100.100.9 name SNK-NKR
+no ip route 10.10.10.0 255.255.255.0 100.100.100.10 name SNK-NBI
+no ip route 10.10.11.0 255.255.255.0 100.100.100.11 name SNK-DC
+no ip route 10.10.12.0 255.255.255.0 100.100.100.12 name SNK-LP
+no ip route 10.10.13.0 255.255.255.0 100.100.100.13 name SNK-PK
+no ip route 10.10.14.0 255.255.255.0 100.100.100.14 name SNK-UDON
+no ip route 10.10.99.0 255.255.255.0 100.100.100.99 name SNK-HQ
+!
